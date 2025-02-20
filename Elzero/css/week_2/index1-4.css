@@ -1,0 +1,64 @@
+/* div{
+	/* display: inline-block;
+	
+	padding: 20px;
+	min-width: 100px;
+	max-width: 600px;  */
+	/* height: 40px; */
+	/* min-height: 40px; */
+	/* max-height: 40px;
+	width: fit-content;
+	display: block;
+	background-color: red;
+	width: fit-content;
+	overflow: scroll; */
+	/* overflow: auto; */
+	/* overflow-y: hidden;
+	overflow-y: scroll;
+} */
+ /* 
+ text-shadow =>  x-shadow y-shadow blur-radius color
+ */
+/* div{ */
+	/* background-color: rgb(250, 232, 230);
+	color: rgb(65, 11, 65);
+	text-shadow: 1px -1px 10px blueviolet; */
+	/* direction: ltr; */
+	/* text-align: right;
+	margin: 12px; */
+	/* text-align: center;
+	background-color: rgb(188, 196, 193);
+	padding: 10px;
+	margin: 20px;
+	text-decoration: none;
+	text-transform: capitalize;
+	word-spacing: 40px;
+	letter-spacing: 5px; */
+	/* لو عايز تعمل مسافه في السطر من غير هوامش */
+	/* text-indent: 100px; */
+/* } */
+div{
+	/* المساقة بين السطور و بعضها   */
+	/* line-height: 1.5; */
+	background-color: salmon;
+	width: 100px;
+	/* علشان مينزلش سطر جديد */
+	white-space: nowrap;
+	/* علشان يقطع الكلمه */
+	/* word-break: break-all; */
+	/* علشان يقطع الكلمه بعد الحرف الاخير */
+	/* word-break: break-word; */
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border: 3px solid;
+	border-color: inherit ;
+}
+body{
+	border: 3px solid rgb(150, 165, 37);
+	padding: 10px;
+	margin: 5px;
+}
+/* div:hover{
+	overflow: visible;
+
+} */
