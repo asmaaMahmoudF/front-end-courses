@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+	<form method="GET" novalidate target="_blank">
+		<div>
+			<label for="upload">upload</label>
+			<input id="upload" type="file" name="upload11" />
+		</div>
+		<hr>
+		<div>
+			<label>search</label>
+			<!--the feature between search & text => search has x to erase all thing -->
+			<input type="search" />
+		</div>
+		<hr>
+		<div>
+			<label>URL</label>
+			<input type="url" />
+		</div>
+		<hr>
+		<div>
+			<label>Date</label>
+			<input type="date" />
+		</div>
+		<hr>
+		<div>
+			<label>month</label>
+			<input type="month" />
+		</div>
+		<hr>
+		<div>
+			<label>Time</label>
+			<input type="time" />
+		</div>
+		<hr>
+
+		<input list="programming" name="prog">
+		<!-- datalist & select => datalist has search -->
+		<datalist id="programming">
+			<option value="python">
+			<option value="php">
+			<option value="c#">
+			<option value="c">
+			<option value="c++">
+			<option value="javascript">
+		</datalist>
+
+		<hr>
+		<!-- q => block -->
+		<q>This is wise word</q>
+		<hr>
+		<blockquote>This is wise word on blockquote</blockquote>
+		<hr>
+		<button>click</button>
+		<!-- wbr => w break opportunity -->
+		<div>
+			https://www.youtube.com/watch?v=B<wbr>59yjwn053chttps://www.youtube.<wbr>com/watch?v=B59yjwn053chttps://www.yo<wbr>utube.com/watch?v=B59yjwn053c
+		</div>
+		<hr>
+		<!-- bdi b directional isolation -->
+		<p> 2 السلام عليكم welcome </p>
+		<p> <bdi>السلام عليكم </bdi> 2 welcome</p>
+		<hr>
+
+
+		<label>test</label>
+
+		<input type="text">
+		<!-- button -> inline -->
+		<button>send</button>
+		<button>Reset</button>
+		<hr>
+		<label>reset label</label>
+		<input type="reset" value="Reset">
+		<label>submit label</label>
+		<input type="submit" value="save">
+	</form>
+	<hr>
+	<code>
+		<!-- pre-formatted text-->
+		var x = 2;
+		var y =22;
+		console.log(y+x);
+	</code>
+	<p>
+		This Is
+		P
+		New Line
+		New Line
+	</p>
+	<pre>
+				This Is 
+		P
+		New Line
+		New Line
+	</pre>
+	<pre>
+		<!-- pre-formatted text-->
+		var x = 2;
+		var y =22;
+		console.log(y+x);
+	</pre>
+	<!-- تقدر تعمل تحميل لصفحة كاملة في الصفحة ال انت واقف فيها  -->
+	<iframe src="https://elzero.org/study/html-2021-study-plan/" title="ElZero school" width="800"
+		height="400"></iframe>
+	p
+</body>
+
+</html>

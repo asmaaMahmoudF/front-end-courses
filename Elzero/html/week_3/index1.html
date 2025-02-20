@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+	<form action="">
+		<div>
+			<label>username</label>
+			<!-- readonly -> the data will send -->
+			<input type="text" readonly value="asmaa">
+		</div>
+		<div>
+			<label>password</label>
+			<!-- readonly -> the data will send -->
+			<input type="password" minlength="10" required maxlength="20" name="pass">
+		</div>
+		<div>
+			<div>
+				<label>email</label>
+				<!-- disable -> data doesn't change so does't send -->
+				<input type="email" value="as@fa.eg" disabled required>
+			</div>
+			<div>
+				<label>subject</label>
+				<input type="text" name="subject" autofocus>
+			</div>
+			<hr>
+			<div>
+				<input id="win" type="radio" name="os" value="windows" checked>
+				<label for="win">windows</label>
+			</div>
+			<div>
+				<input id="Lin" type="radio" name="os" value="Linux">
+				<label for="Lin">Linux</label>
+			</div>
+			<div>
+				<input id="Ma" type="radio" name="os" value="Mac">
+				<label for="Ma">Mac</label>
+			</div>
+			<div>
+				<label for="num">Number</label>
+				<input id="num" type="number" name="number">
+			</div>
+			<input type="submit">
+			<br>
+			<hr>
+			<div>
+				<input id="win1" type="checkbox" name="os" value="windows" checked>
+				<label for="win1">windows</label>
+			</div>
+			<div>
+				<input id="Lin1" type="checkbox" name="os" value="Linux">
+				<label for="Lin1">Linux</label>
+			</div>
+			<div>
+				<input id="Ma1" type="checkbox" name="os" value="Mac">
+				<label for="Ma1">Mac</label>
+			</div>
+			<div>
+				<label for="num1">Number</label>
+				<input id="num1" type="number" name="number">
+			</div>
+	</form>
+	<hr>
+	<form action="">
+		<!-- textarea , select -->
+		<label for="book"> Choose Book:</label>
+		<br>
+		<select name="book" id="book" multiple>
+			<optgroup label="romantic books">
+				<option value="1">Book 1</option>
+				<option value="2">Book 2</option>
+				<option value="3">Book 3</option>
+			</optgroup>
+			<optgroup label="police books">
+				<option value="1" selected>Book 4</option>
+				<option value="2">Book 5</option>
+				<option value="3">Book 6</option>
+			</optgroup>
+			<optgroup label="fithing books">
+				<option value="1">Book 7</option>
+				<option value="2">Book 8</option>
+				<option value="3">Book 9</option>
+			</optgroup>
+
+		</select>
+
+
+		<hr>
+		<textarea name="subject" id="" cols="30" rows="10" placeholder="text test">
+
+		</textarea>
+		<hr>
+		<input type="submit" value="save">
+	</form>
+</body>
+
+</html>

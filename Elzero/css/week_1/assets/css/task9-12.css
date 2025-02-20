@@ -1,0 +1,46 @@
+div{
+	display: inline-block;	
+	margin: 30px 30px 30px 30px;
+	padding: 20px 20px 20px 30px;
+}
+#sh1{
+	outline: 5px solid black;
+	border: 5px solid red;
+}
+#sh2{
+	outline: 5px solid black;
+	border-width: 7px;
+	border-style: solid;
+	border-top-color: blue;
+	border-bottom-color: blue;
+	border-right-color: green;
+	border-left-color: green;
+}
+#sh3{
+	outline: 5px solid black;
+	border-width: 5px;
+	border-style: dashed;
+	border-color: red green blue yellow;
+}
+.element{
+	width: 400px;
+	display: block;
+	padding: 20px;
+	margin: 30px;
+	background-color: rgb(215, 210, 210);
+	outline:  10px solid rgb(215, 210, 210);
+	border-left-style: solid;
+	border-left-width: 10px;
+}
+.element-2{
+	/* remove it but still but the place empty */
+	visibility: hidden;
+	/* display => remove all of it   */
+	/* display: none; */
+}
+.element-1{
+	border-left-color: rgb(43, 185, 33);
+}
+.element-3{
+	border-left-color: rgb(185, 33, 182);
+}

@@ -1,0 +1,92 @@
+div{
+	background-color: aqua;
+	background-color: rgb(0, 255, 0);
+	background-color: #FF0000;
+	background-image: url(https://placehold.co/600x400/png);
+	background-repeat: no-repeat ;
+	background-attachment: fixed;
+	background-position:  left bottom;
+	/* background-position:  50px bottom; */
+	/* background-position:  100% bottom; */
+	/* background-size: cover; */
+	/* background-size: 100% 100%; */
+	/* background-size: auto; */
+	background-size: contain;
+}
+h1{
+	background: #cef45f;
+	/* padding top right bottom left*/
+	/* padding: 10px 20px 10px 40px; */
+	/* padding: 0px 0px 10px 0px; */
+	/* padding-bottom: 10px; */
+	padding: 5%;
+}
+h2{
+	/* margin it can be negative الهامش الخارجي*/
+	/* [padding] /can't be negative الهامش الداخلي*/
+	/* margin-top: -40px; */
+	/* margin-left: 70px; */
+	width: 50%;
+	/* margin-left: auto;
+	margin-right: auto; */
+	margin: auto;
+	border: 2px red solid;
+	border-color: red greenyellow blue black;
+	border-style: dashed;
+	border-width: 5px;
+	padding: 20px 0px 20px 200px;
+}
+span{
+	padding: 10px;
+	/* بيأخد من مساحة العنصر  */
+	border: 3px solid black;
+	/* متقدرش كل اتجاه بنوع معين */
+	outline: 10px solid rebeccapurple ;
+	border-radius: 2px;
+	border-bottom-style : dashed ;
+
+	/* outline-style: dashed dotted solid solid; it doesn't accepted */
+	outline-style: dashed dotted solid solid;
+	
+	/* border-style: dashed dotted solid solid; it's accepted */
+	border-style: dashed dotted solid solid;
+}
+/* 
+Block
+- take full width if no width is set
+- add line break line after it and before it
+- respect padding, margin, width, height
+- can't be in the same line with other elements
+
+Inline
+- don't add line brake after it and before it
+- don't respect  width, height but respect padding&margin from right & left
+- allow elements before and after it.
+
+Inline-block
+- don't add line break after it and before it
+- allow elements before and after it.
+
+- respect padding, margin, width, height
+
+
+*/˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙
+h3{
+	/* width: 50%; */
+	padding: 20px;
+	margin: 20px;
+	width: 400px;
+	height: 30px;
+}
+span{
+	display: inline-block;
+	margin: 20px;
+	padding: 20px;
+}
+h4{
+	/* display: none; */
+}
+.first{
+	background-color: red;
+	visibility: hidden;
+}

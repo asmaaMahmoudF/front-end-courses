@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>title of the page</title>
+</head>
+<body>
+	<form>
+		<div>
+			<label>Username</label>
+			<input type="text" name = "Username" minlength="5" maxlength="20" required autofocus>
+		</div>
+		<br>
+		<div>
+			<label>Email</label>
+			<input type="email" name ="Email" value="o@o.com" readonly>
+		</div>
+		<br>
+		<div hidden>
+			<label>Token</label>
+			<input type="text" name ="Token" value="b92f1fc2fce391ad7af633723afd3055">
+		</div>
+		<br>
+		<label for="skill"> <b>Select</b>  your <strong>skills</strong> and job title:</label>
+		<br>
+		<br>
+		<select id="skill" name ="select" multiple>
+			<optgroup  label="skills" > 
+				<option value="Planning" >Planning</option>
+				<option value="Analysis">Analysis</option>
+				<option value="Advanced Search">Advanced Search</option>
+				<option value="Logical Thinking" selected>Logical Thinking</option>
+				<option value="Problem Solving">Problem Solving</option>
+			</optgroup>
+			<optgroup  label="job title"> 
+				<option value="Business Analyst"> Business Analyst</option>
+				<option value="Back-End Developer">Back-End Developer</option>
+				<option value="Front-End Developer" selected>Front-End Developer</option>
+				<option value="Scrum Master">Scrum Master</option>
+				<option value="Project Manager">Project Manager</option>
+			</optgroup>
+		</select>
+		<br>
+		<label for="book">Choose Book:</label>
+		<select name="Bookss" id="book" multiple>
+			<optgroup label="PHP">
+				<option value="1">v5.0</option>
+				<option value="2">v7.0</option>
+				<option value="3">v8.0</option>
+			</optgroup>
+			<optgroup label="Python">
+				<option value="4">v2.0</option>
+				<option value="5">v3.0</option>
+				<option value="6">v3.9</option>
+			</optgroup>
+		</select>
+		
+		<br>
+		<textarea name="brief" id="" cols="30" rows="10" placeholder="Write Here Why You Want To Learn programming"></textarea>
+		<br>
+		<input type="submit" value="save">
+		<input type="reset"  value="Empty">
+	</form>
+</body>
+</html>

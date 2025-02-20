@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+	<!--  HTML paragraphs always starts on a new line. True -->
+	<p title="About W3Schools">W3Schools is a web developer's site.</p>
+	<p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy.</p>
+	<p>Press Ctrl + C to copy.</p>
+	<main>
+		<h1>Welcome to My Website</h1>
+		<p>This &lt;&nbsp&gt;is the main content of the webpage.</p>
+		<p>This &lt;&amp&gt;is the main content of the webpage.</p>
+	</main>
+	<form>
+		<fieldset>
+			<legend>Personal Information</legend>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name">
+		</fieldset>
+	</form>
+	<!-- What is the default value of the INPUT element's size attribute? 20 attributes -->
+	<form action="submit_form.php">
+		<input type="text" name="username">
+		<input type="text" name="email">
+
+		<!-- Submit button with a specific URL to send data -->
+		<input type="submit" value="Submit to URL 1" formaction="submit_form_1.php">
+
+		<!-- Another submit button with a different URL to send data -->
+		<input type="submit" value="Submit to URL 2" formaction="submit_form_2.php">
+	</form>
+	<form action="submit_form.php" method="post" formtarget="_black">
+		<input type="text" name="username">
+		<input type="submit" value="Submit to New Tab">
+	</form>
+
+	<picture>
+		<source srcset='avatar.jpg' media="(min-width: 800px)">
+		<source srcset='bakar.png' media="(min-width: 800px)">
+
+		<img src="default.jpg" alt="User Avatar">
+	</picture>
+
+	<head>
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+	</head>
+	<!-- What is the correct CSS property for styling the border of a table? border -->
+	<!-- 
+			Other formtarget values:
+	
+				_self: Opens the response in the same window (default behavior).
+				_blank: Opens the response in a new tab or window.
+				_parent: Opens the response in the parent frame (if any).
+				_top: Opens the response in the full browser window.
+		-->
+	<p>This is <s>struck-through</s> text.</p>
+	<p>This is <del>struck-through</del> text.</p>
+
+	<blockquote cite="http://www.worldwildlife.org/who/index.html">
+		For 50 years, WWF has been protecting the future of nature.
+		The world's leading conservation organization,
+		WWF works in 100 countries and is supported by
+		1.2 million members in the United States and
+		close to 5 million globally.
+	</blockquote>
+
+	<!-- "bidirectional override"  -->
+	<bdo dir="rtl">
+		What a beautiful day!
+	</bdo>
+	<p>
+		The <abbr title="World Health Organization">
+			WHO</abbr> was founded in 1948.
+	</p>
+	<!-- 
+		Do you remember any legal HTML color names?
+		 Which one of the following is a legal HTML color? Tomato
+	 -->
+	<!-- 
+		The alpha channel controls the transparency of a color,
+		 where 0 represents fully transparent عزل and 1 represents fully opaque (doesn't do any thing).  
+	-->
+	<!-- Which one of the following will result in a grey color?  #A0A0A0-->
+	<!-- hsl(0, 100%, 0%) in HSL (Hue, Saturation, Lightness) is black-->
+	<p style="color: hsla(0, 100%, 50%, 0.5)">This is a paragraph.</p>
+
+	<div style="background-color: rgb(0, 0, 255); width: 100px; height: 100px;">
+		<p style="color:#ffffff">Hello</p>
+	</div>
+	<img src="smiley.gif" style="float:right;">
+
+	<!-- url('myimage.png') => case senestive to single qoute -->
+	<p style="background-image: url('myimage.png')">
+		<img src="../pic/html1-2.png" alt="task6-10" width="10%" height="20%">
+
+		<!-- image map => <area>  -->
+		<area shape="default" href="default.html">
+
+		<!-- What is the highest HEX number of the following: BB -->
+	<table style="width:300px;">
+		<thead>
+			<tr>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Points</th>
+			</tr>
+		</thead>
+		<tr>
+			<td>Jill</td>
+			<td>Smith</td>
+			<td>50</td>
+		</tr>
+	</table>
+
+	<svg width="700" height="490">
+		<circle cx="120" cy="120" r="100" stroke="black" stroke-width="3" fill="red" />
+		<text x="75" y="120" font-size="20" fill="black">Hello SVG</text>
+		<rect width="250" height="100" x="200" y="180" fill="red" stroke="black" stroke-width="3"/>
+		<path d="M10 80 C 50 10, 80 10, 120 80" stroke="black" fill="transparent" stroke-width="5" />
+		<circle cx="530" cy="120" r="100" stroke="black" stroke-width="3" fill="red" />
+		<text x="485" y="120" font-size="20" fill="black">Hello SVG</text>
+	</svg> 
+	<br>
+	<br>
+	<!-- The HTML global attribute, "contenteditable" is used to: -->
+	<p contenteditable="true"> Hello Asmaa</p>
+	<canvas id="myCanvas" width="200" height="100" style="border:1px solid black;"></canvas>
+	<script>
+		var canvas = document.getElementById("myCanvas");
+		var ctx = canvas.getContext("2d"); // Get drawing context
+		ctx.fillStyle = "blue"; 
+		ctx.fillRect(20, 20, 150, 60); // Draws a blue rectangle
+	</script>
+	  <br>
+	  <br>
+	  <br>
+	  <br>
+	  <br>
+	  <br>
+</body>
+
+</html>

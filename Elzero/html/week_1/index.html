@@ -1,0 +1,334 @@
+<!doctype html>
+<!-- Html 5 small doctype -> 
+	if you don't write doctype -> the page goes to Quriks mode in render mode
+	if you write doctype -> the page goes to standard mode in render mode
+-->
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Book Store</title>
+	<meta name=viewport content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="This is book store" />
+	<link rel="stylesheet" href="">
+	<title>Document</title>
+</head>
+
+<body>
+	<!--  HTML paragraphs always starts on a new line. True -->
+	<p title="About W3Schools">W3Schools is a web developer's site.</p>
+	<p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy.</p>
+	<p>Press Ctrl + C to copy.</p>
+	<main>
+		<h1>Welcome to My Website</h1>
+		<p>This &lt;&nbsp&gt;is the main content of the webpage.</p>
+		<p>This &lt;&amp&gt;is the main content of the webpage.</p>
+	</main>
+	<form>
+		<fieldset>
+			<legend>Personal Information</legend>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name">
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email">
+
+			<label for="pass">password:</label>
+			<input type="password" id="email" name="passwpe" maxlength="20" minlength="10">
+		</fieldset>
+	</form>
+	<!-- What is the default value of the INPUT element's size attribute? 20 attributes -->
+	<form action="submit_form.php">
+		<input type="text" name="username">
+		<input type="text" name="email">
+
+		<!-- Submit button with a specific URL to send data -->
+		<input type="submit" value="Submit to URL 1" formaction="submit_form_1.php">
+
+		<!-- Another submit button with a different URL to send data -->
+		<input type="submit" value="Submit to URL 2" formaction="submit_form_2.php">
+	</form>
+	<form action="submit_form.php" method="post" formtarget="_black">
+		<input type="text" name="username">
+		<input type="submit" value="Submit to New Tab">
+	</form>
+
+	<!-- 
+			Other formtarget values:
+	
+					_self: Opens the response in the same window (default behavior).
+					_blank: Opens the response in a new tab or window.
+					_parent: Opens the response in the parent frame (if any).
+					_top: Opens the response in the full browser window.
+		-->
+	<p>This is <s>struck-through</s> text.</p>
+	<p>This is <del>struck-through</del> text.</p>
+
+	<blockquote cite="http://www.worldwildlife.org/who/index.html">
+		For 50 years, WWF has been protecting the future of nature.
+		The world's leading conservation organization,
+		WWF works in 100 countries and is supported by
+		1.2 million members in the United States and
+		close to 5 million globally.
+	</blockquote>
+
+	<!-- "bidirectional override"  -->
+	<bdo dir="rtl">
+		What a beautiful day!
+	</bdo>
+	<p>
+		The <abbr title="World Health Organization">
+			WHO</abbr> was founded in 1948.
+	</p>
+	<!-- 
+		Do you remember any legal HTML color names?
+		 Which one of the following is a legal HTML color? Tomato
+	 -->
+	<!-- 
+		The alpha channel controls the transparency of a color,
+		 where 0 represents fully transparent عزل and 1 represents fully opaque (doesn't do any thing).
+	  -->
+	<div style="background-color: rgb(0, 0, 255); width: 100px; height: 100px;">
+		<p style="color:#ffffff">Hello</p>
+		<!-- Which one of the following will result in a grey color?  #A0A0A0-->
+		<!-- hsl(0, 100%, 0%) in HSL (Hue, Saturation, Lightness) is black-->
+	</div>
+	<img src="smiley.gif" style="float:right;">
+	
+	<!-- url('myimage.png') => case senestive to single qoute -->
+	<p style="background-image: url('myimage.png')">
+	<img src="../pic/html1-2.png" alt="task6-10" width="10%" height="20%">
+
+	<!-- image map => <area>  -->
+	<area shape="default" href="default.html">
+	
+	<!-- What is the highest HEX number of the following: BB -->
+	<!-- paragraph is block  -->
+	<!-- b => bold
+		strong => bold => important text
+		i => italic
+		em => Emphasized
+		mark => 
+		u => underline
+		small => small 
+		del => deleted  text
+		ins => inserted text 
+		sub => subscript
+		sup => superscript
+	 -->
+	<h1>book2</h1>
+	<h3>book1</h3>
+	<h3>book1</h3>
+	<h4>book1</h4>
+	<h5>book1</h5>
+	<h6>book1</h6>
+	<img src="" alt="">
+	<audio src=""></audio>
+	<video src=""></video>
+	This is my book store
+
+	<!-- paragraph block -->
+	<p>This is <b>Book store</b>, Welcome</p>
+	<!-- Anchor inline -->
+	<a href="https://google" target="_blank" title="Go to Google">Google</a>
+	<a href="" title="go to facebook">FaceBook</a>
+	<a href="task1-5.html" title="go to test">Test</a>
+	<a href="#asmaa" title="Go to Asmaa">Test</a>
+	<a href="asmaafahmy932@gmail.com">Contact me</a>
+
+	<p>This is <b>Book store</b>, Welcome</p>
+	<!-- src =  source
+		alt => alternate text
+	-->
+
+	<!-- 
+		ul => unordered list
+		li => list item
+		ol => Ordered list
+	 -->
+	<ul>
+		<li>Html</li>
+		<li>Css</li>
+		<li>Js</li>
+	</ul>
+	<li>
+		js
+		<ul>Angular</ul>
+		<ul>React js</ul>
+		<ul>Vue js</ul>
+	</li>
+	<!-- reversed
+		start 
+		type => type of ordering
+	-->
+	<ol type="i" reversed>
+		<li>Name</li>
+		<li>age</li>
+		<li>Tel</li>
+		<li>address</li>
+	</ol>
+	<ol>
+		<li value="10">Name</li>
+		<li>age</li>
+		<li>Tel</li>
+		<li>address</li>
+	</ol>
+	<!-- 
+		dl => description list
+		dt => description term
+		dd => description of the term
+	 -->
+	<dl>
+		<dt>HTML</dt>
+		<dd>Lagnuage of the web</dd>
+		<dd>Lagnuage my first</dd>
+	</dl>
+
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p id="asmaa">Asmaa fahmy mahmsd ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt
+		voluptatum quos velit non labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis
+		dignissimos eos obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quibusdam deserunt voluptatum quos velit non
+		labore adipisci porro accusamus soluta natus excepturi explicabo vero id unde, facilis dignissimos eos
+		obcaecati.</p>
+
+</body>
+
+</html>

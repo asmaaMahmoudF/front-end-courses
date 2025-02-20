@@ -1,0 +1,73 @@
+/* Task_5 */
+/* Valid */
+._user-name {
+}
+
+/* Valid */
+.-user-name {
+}
+
+/* NotValid */
+/* .1user-name {
+} */
+
+
+/* NotValid */
+/* .@user-name {
+} */
+
+
+/* NotValid */
+/* .user@name {
+} */
+
+
+/* Valid */
+._user10name {
+}
+
+/* Valid */
+.u {
+}
+
+/* Task_6 */
+/* Bad */
+.USERNAME {
+}
+
+/* Good */
+.UserName {
+}
+
+/* Good */
+.user-name {
+}
+
+/* bad bad bad bad don't forget*/
+.userName {
+}
+
+/* bad */
+.usernameprofile {
+}
+
+.title {
+	/* Any Element With class title */
+	/* that class called title */
+}
+
+/* ? */
+#nav {
+	/* Any Element With id nav */
+	/* that id call nav */
+}
+
+/* ? */
+div {
+	/* div element */
+}
+
+/* ? */
+h2 {
+	/* h2 element */
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>title of the page</title>
+</head>
+<body>
+	<h1>Title 1</h1>
+	<h3>title 2</h3>
+	<p contenteditable="true"></p>
+	<!-- what is ARIA ?
+	ARIA (Accessible Rich Internet Applications) is a 
+	set of attributes that improve web
+	 accessibility for people using assistive technologies
+	 input , button , nav
+	-->
+	<input type="text" aria-label="Search">
+	
+	<!-- Helps screen readers recognize it as disabled -->
+	<button aria-disabled="true" onclick="alert('This still works!') ">Disabled Button</button>
+	<div role="button" aria-disabled="true">Custom Button</div>
+
+	<nav role="navigation" aria-label="Main Navigation">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+		</ul>
+	</nav>
+	<!-- في عالم ال Accessibility هل الأفضل أن أكتب
+10 – 20
+أم
+10 To 20 -->
+
+
+<!-- Task_2 -->
+
+<ul style="list-style-type: none;">
+	<form action="" method="GET">
+		<li>
+				<input id="add" type="checkbox">
+				<label for="add">Python</label>
+		</li>
+		<li>
+				<input id="add1" type="checkbox" >
+				<label for="add1">PHP</label>
+		</li>
+		<li>
+				<input id="add2" type="checkbox">
+				<label for="add2">JavaScript</label>
+		</li>
+
+	</form>
+</ul>
+</body>
+</html>
