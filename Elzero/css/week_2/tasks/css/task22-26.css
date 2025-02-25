@@ -1,0 +1,40 @@
+/* Task_1 */
+.empty{
+	border: 2px solid rgb(255, 0, 242);
+	padding: 50px;
+	margin: 10px;
+}
+
+.empty .full{
+	text-align: center;
+	background-color: rosybrown;
+	border: inherit;
+	padding: inherit;
+}
+/* Task_2 */
+html{
+	font-size: 20px;
+}
+.one{
+	font-family: "Open Sans", serif;
+}
+.two{
+	font-family: "Cairo", serif;
+}
+.three{
+	font-family: "Jomhuria", serif;
+}
+/* Task_3 */
+.onee{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2.5rem;
+	/* font-size: 50px; */
+}
+.twoo{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2rem;
+}
+.threee{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.5rem;
+}
