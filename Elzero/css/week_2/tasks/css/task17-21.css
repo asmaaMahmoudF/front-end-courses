@@ -19,17 +19,18 @@ body{
 } */
  /* Task_3 */
  div{
-	display: block;
 	width: 500px;
 	background-color: cornflowerblue;
 	color: white;
-	
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
  }
 
  /* task_4 */
  /* a{
 	display: block;
-	width: 100px;
+	width: fit-content;
 	text-align: center;
 	margin: auto;
 	font-size: 30px;
